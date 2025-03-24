@@ -25,5 +25,42 @@ An intelligent system to automate resume screening using NLP and machine learnin
 ### Steps
 1. Clone repository:
    ```bash
-   git clone https://github.com/yourusername/resume-ranker.git
-   cd resume-ranker
+   git clone https://github.com/imvinxx/AI-Powered_Resume_Screening_and_Ranking_System.git
+
+2. Install dependencies
+   ```bash
+   pip install -r requirements.txt
+
+3. Run streamlit
+   ```bash
+   streamlit run resume_ranker.py
+
+
+### Usage 🖥️
+1. Enter job description in text area
+2. Upload PDF resumes (multiple files supported)
+3. Click Rank Resumes
+4. View/download ranked candidates:
+
+
+### Tech Stack 🛠️
+  Component         	Technology
+                
+  Frontend	          Streamlit
+  PDF Processing	    PyPDF2
+  NLP & ML	          scikit-learn, TF-IDF
+  Data Handling	      pandas
+
+
+### Limitations & Future Scope 🔮
+#### Current:
+- Text-based PDFs only (no image/scan support)
+- English language only
+
+#### Planned:
+- DOCX resume support
+- BERT embeddings integration
+- Skill entity recognition
+- Bias detection module
+
+  
